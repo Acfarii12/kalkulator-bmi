@@ -1,0 +1,90 @@
+.title {
+  position: relative;
+  top: -30px;
+}
+
+.input .tinggi-berat {
+  margin-bottom: 20px;
+}
+
+.tinggi-berat input {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 15pc;
+  padding: 9px;
+  transition: 0.5s;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.tinggi-berat input:hover {
+  transform: translateY(-3px);
+}
+
+.jenis-kelamin input[type="radio"] {
+  visibility: hidden;
+}
+
+.jenis-kelamin label {
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  line-height: 55px;
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.jenis-kelamin label span {
+  font-size: 17px;
+  position: relative;
+  top: -27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.jenis-kelamin label .bi-gender-male {
+  color: rgb(18, 235, 235);
+}
+
+.jenis-kelamin label .bi-gender-female {
+  color: rgb(248, 119, 173);
+}
+
+.jenis-kelamin label:hover {
+  background: black;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.jenis-kelamin input[type="radio"]:checked+label {
+  background: black;
+  color: white;
+}
+
+input[type="button"] {
+  font-family: "Ubuntu", sans-serif;
+  background: rgb(247, 111, 111);
+  border: none;
+  cursor: pointer;
+  padding: 13px 30px 13px 30px;
+  color: white;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+input[type="button"]:hover {
+  background: rgb(221, 76, 76);
+  transform: translateY(-3px);
+}
+
+label[id="hasil"] {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* easter egg */
+
+#ee {
+  display: none;
+}
